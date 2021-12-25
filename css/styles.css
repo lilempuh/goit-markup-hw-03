@@ -200,12 +200,14 @@ margin-right: 30px;
 .team{
   padding-top: 94px;
   padding-bottom: 94px;
-
 }
 .team-list{
   display: flex;
   margin-right: -30px;
   justify-content: center;
+}
+.team-cards {
+  padding: 30px 58px;
 }
 .team-item{
   width: calc(100 / 4 - 30px);
@@ -281,7 +283,6 @@ margin-right: 30px;
 }
 
 .portfolio-item {
-  flex-basis: calc(100% / 5 - 8px);
   margin-right: 8px;
 }
 .portfolio-second-list {
