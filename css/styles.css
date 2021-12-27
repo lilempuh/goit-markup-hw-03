@@ -54,8 +54,6 @@ a {
 }
 /*----------------------------- HEADER ---------------------------------*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 .header-container {
@@ -164,10 +162,12 @@ a {
 }
 .quality-list {
   display: flex;
-  margin-right: -30px;
 }
 .quality-element {
-  width: calc(100 / 4- 30px);
+  width: 270px;
+}
+
+.quality-element:not(:last-child) {
   margin-right: 30px;
 }
 .quality-title {
@@ -214,7 +214,7 @@ a {
   justify-content: center;
 }
 .team-cards {
-  padding: 30px 58px;
+  padding: 30px 0;
 }
 .team-item {
   width: calc(100 / 4 - 30px);
@@ -226,7 +226,6 @@ a {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-top: 30px;
 }
 .team-after-name {
   font-size: 16px;
