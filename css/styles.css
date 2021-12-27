@@ -167,7 +167,7 @@ a {
   width: 270px;
 }
 
-.quality-element:not(:last-child) {
+.quality-element:not(:nth-child(4n)) {
   margin-right: 30px;
 }
 .quality-title {
